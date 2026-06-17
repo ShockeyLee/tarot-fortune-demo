@@ -1,0 +1,17 @@
+{
+  "name": "tarot-fortune-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "deploy": "npm run build && npx wrangler@latest pages deploy dist --project-name tarot-fortune-demo"
+  },
+  "devDependencies": {
+    "vite": "^8.0.16",
+    "vitest": "^4.0.16"
+  }
+}
