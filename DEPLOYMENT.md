@@ -24,6 +24,8 @@ npm run deploy
 
 The local deployment attempt on 2026-06-17 reached Wrangler 4.101.0, but stopped because `CLOUDFLARE_API_TOKEN` was not set.
 
+The deployment command uses `--branch main` so Wrangler publishes to the production Pages domain instead of only creating a preview alias.
+
 ## Cloudflare Pages Git integration
 
 You can also connect the GitHub repository in Cloudflare:
