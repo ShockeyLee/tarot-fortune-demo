@@ -23,3 +23,5 @@ npm run deploy
 ```
 
 构建输出目录是 `dist`。Cloudflare Pages 项目名默认是 `tarot-fortune-demo`。
+
+更多发布和域名绑定记录见 `DEPLOYMENT.md`。
